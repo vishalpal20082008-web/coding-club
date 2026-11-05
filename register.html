@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registration form">
+    <title>Register - My Website</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="register.html">Register</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <hr>
+
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <p>Hobbies:</p>
+        <input type="checkbox" id="reading" name="hobby" value="Reading">
+        <label for="reading">Reading</label>
+
+        <input type="checkbox" id="sports" name="hobby" value="Sports">
+        <label for="sports">Sports</label>
+
+        <input type="checkbox" id="music" name="hobby" value="Music">
+        <label for="music">Music</label>
+
+        <br><br>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+            <option value="">Choose Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BTech">B.Tech</option>
+            <option value="MCA">MCA</option>
+        </select>
+
+        <br><br>
+
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message" rows="5" cols="30"></textarea>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
